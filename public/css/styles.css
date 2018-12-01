@@ -50,6 +50,7 @@ h2.font-bold{
     font-family: 'Hanlee', cursive;
     font-weight: bold;
 }
+
 .how-it-works-list{
     font-family: 'Hanlee', cursive;
     font-size: 18px;
@@ -62,6 +63,10 @@ img.animated-gif{
     height: auto;
     margin-left: 25%;
     margin-top: 22.5px;
+}
+
+#price{
+    color: rgb(56, 52, 52);
 }
 
 .bgimg-1{
@@ -102,7 +107,13 @@ img.animated-gif{
 text-align: center;
 font-family: 'Yesteryear', cursive;
 font-size: 42px;
-height: 300px;
+height: 350px;
+}
+
+.large-box-list-items li,
+.small-box-list-items li {
+    float:left;
+    width: 33%;
 }
 
 .wrapper li{
@@ -154,3 +165,12 @@ height: 300px;
     }
 }
 
+@media (max-width: 725px){
+    .large-box-list-items li,
+    .small-box-list-items li{
+    display: block;
+    float: none;
+    width:100%;
+    margin: 10px;
+    }
+}
