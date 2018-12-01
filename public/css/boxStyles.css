@@ -110,3 +110,33 @@ ul li .check::before {
 input[type="radio"]:checked ~ .check {
   border: 5px solid #f56400;
 }
+
+#responsive-image {  
+  width: 100%;  
+  height: auto;
+  border-radius: 3%; 
+} 
+
+.card {
+  width: 25%;
+  margin: auto;
+  background: transparent;
+  border: transparent;
+}
+
+
+#header {
+background-color: rgb(31, 95, 98);
+color: white;
+}
+
+.btn-info {
+color: white;
+background-color: rgb(31, 95, 98);
+}
+
+.specialty {
+  width: 70%;
+  margin: auto;
+  padding: 2%;
+}

@@ -1,6 +1,6 @@
 # Boxer
 
-Boxing out the competition!
+[Boxing out the competition!](https://ancient-oasis-49225.herokuapp.com/) 
 
 ## Why Boxer?
 
@@ -20,15 +20,12 @@ they will not see the product again.
     * Express is used handle routes and serve static files
 * [Bootstrap](https://getbootstrap.com/) - Bootstrap is an open-source front-end framework for designing websites and web applications
     * Bootstrap is used to create forms and other interface components
-* [Handlebars](https://handlebarsjs.com/) - Handlebars is a templating engine that allows for the creation of dynamic congtent
-    * Handlebars is used to render content when user is selecting customized boxes
 * [Sequelize](docs.sequelizejs.com/) -  a promise-based ORM for Node.js 
     * Sequelize models are used to update product tables in mySQL and create table initial table structure 
 * [Etsy](https://www.etsy.com/developers/documentation/getting_started/api_basics) - Unique gifts including homemade wares and jewelery
     * Etsy API is currently the only API that powers boxer's content, however, the framework is in place to include other API content
-
-
-
+* [LiveChat](https://www.livechatinc.com/) - Online chat and help desk
+    * LiveChat provides user assistance if needed
 
 ## Authors
     * Julie Wilmer- API and Front End

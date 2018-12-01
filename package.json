@@ -1,16 +1,8 @@
 {
-  "name": "validations",
+  "name": "boxer",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "watch": "nodemon server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "description": "Boxing out the competition",
+  "main": "etsyAPIResults.js",
   "dependencies": {
     "express": "^4.16.3",
     "firebase": "^5.6.0",
@@ -19,5 +11,20 @@
     "path": "^0.12.7",
     "request": "^2.88.0",
     "sequelize": "^4.3.1"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aexes3/Boxer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aexes3/Boxer/issues"
+  },
+  "homepage": "https://github.com/aexes3/Boxer#readme"
 }

@@ -34,4 +34,8 @@ module.exports = function(app) {
     res.sendFile(path.join(__dirname, "../public/contact.html"));
   });
 
+  app.get("/questionnaire", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/questionnaire.html"));
+  });
+
 };

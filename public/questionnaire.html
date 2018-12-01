@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+    <link rel="stylesheet" href="css/boxStyles.css">
+    <title>Boxer Questionnaire</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron" id="header">
+            <img class="d-block mx-auto mb-4" src="Insert Bootsrap logo" alt="" width="72" height="72">
+            <h1 class="font-bold howitworks">Is your mutt mad about Marvel?</h1>
+                <br>
+                <p class= "lead">Is your cocker spaniel a Cowboy?  Maybe your German shepard is a Jedi.</p> 
+            <p class= "lead">Tell us about your pooch's favorite things and we will customize a specialty box for you!</p>
+
+            <div class="specialty">            
+                    <img src="https://i.etsystatic.com/6990831/r/il/fc8764/400750333/il_570xN.400750333_jh2d.jpg" id="responsive-image">
+                </div>
+
+        </div>
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-md-4">
+                    <form class="q1">
+                        <h2>Favorite holiday?</h2>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio" checked> <span class="label-text">Christmas</span>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio"> <span class="label-text">Halloween</span>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio"> <span class="label-text">Thanksgiving</span>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio"> <span class="label-text">Valentine's Day</span>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <form class="q2">
+                        <h2>Favorite sport?</h2>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio" checked> <span class="label-text">Soccer</span>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio"> <span class="label-text">Football</span>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio"> <span class="label-text">Underwater Basketweaving</span>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio"> <span class="label-text">Baseball</span>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <form class="q3">
+                        <h2>Favorite show?</h2>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio" checked> <span class="label-text">Big Bang Theory</span>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio"> <span class="label-text">Dancing with Dogs</span>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio"> <span class="label-text">Seinfeld</span>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio"> <span class="label-text">How I Met Your Mother</span>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron">
+            <div class="row">
+
+                <div class="col-md-4">
+                    <form class="q4">
+                        <h2>Favorite video game?</h2>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio" checked> <span class="label-text">Mine Sweeper</span>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio"> <span class="label-text">Candy Crush</span>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio"> <span class="label-text">Halo</span>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio"> <span class="label-text">Fallout</span>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <form class="q5">
+                        <h2>Favorite Marvel superhero?</h2>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio" checked> <span class="label-text">Spiderman</span>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio"> <span class="label-text">Captain America</span>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio"> <span class="label-text">Iron Man</span>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio"> <span class="label-text">Black Widow</span>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <form class="q6">
+                        <h2>Favorite food?</h2>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio" checked> <span class="label-text">Pizza</span>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio"> <span class="label-text">Spaghetti</span>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio"> <span class="label-text">Chicken Tenders</span>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio"> <span class="label-text">Hamburger</span>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-md-4">
+                    <form class="q7">
+                        <h2>Favorite type of soda?</h2>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio" checked> <span class="label-text">Coca Cola</span>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio"> <span class="label-text">Sprite</span>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio"> <span class="label-text">Dr. Pepper</span>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio"> <span class="label-text">Big Red</span>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <form class="q8">
+                        <h2>Favorite restaurant?</h2>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio" checked> <span class="label-text">Pluckers</span>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio"> <span class="label-text">Home Slice</span>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio"> <span class="label-text">Kerbey Lane</span>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio"> <span class="label-text">In N Out</span>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <form class="q9">
+                        <h2>Favorite coding language?</h2>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio" checked> <span class="label-text">HTML</span>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio"> <span class="label-text">JavaScript</span>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio"> <span class="label-text">MySQL</span>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label>
+                                <input type="radio" name="radio"> <span class="label-text">NodeJS</span>
+                            </label>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                        <div class="card">
+                                <button type="button" onclick="window.location.href = 'smSpecialtyBox.html';"
+                                value="Link" class="btn btn-info">Submit Form</button>
+                            </div>
+                    </form>
+    </div>
+
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">&copy;Boxer Inc.</p>
+        <!-- <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Privacy</a></li>
+            <li class="list-inline-item"><a href="#">Terms</a></li>
+            <li class="list-inline-item"><a href="#">Support</a></li>
+        </ul> -->
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+</body>
+<!-- <script src="js/questions.js"></script> -->
+</html>
