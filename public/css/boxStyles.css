@@ -1,0 +1,112 @@
+/* GLOBAL COLORS */
+/* #222222 */
+/* #f56400 */
+/* rgb(158, 203, 205) */
+/* #f9a266 */
+/* rgb(56, 52, 52); */
+/* rgb(175, 111, 51) */
+
+body,
+html {
+  height: 100%;
+  background: #222222;
+  font-family: "Lato", sans-serif;
+}
+
+.btn {
+  background-color: #f56400;
+  border: #f56400;
+  margin: 1%;
+  align-content: center;
+
+}
+
+.jumbotron {
+  text-align: center;
+  margin: 2%;
+  padding: 2%;
+  background-color: rgb(158, 203, 205);
+  color: #222222;
+  border:  rgb(158, 203, 205);
+}
+
+.howitworks {
+  font-family: "Yesteryear", cursive;
+  font-size: 42px;
+}
+
+.pick-a-box {
+  font: bold;
+  font-size: 20px;
+  font-family: "Centra", Arial, Helvetica, Verdana, sans-serif;
+  display: inline;
+}
+
+.container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  color: rgb(158, 203, 205);
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 215px;
+}
+
+ul li input[type="radio"] {
+  position: absolute;
+  visibility: hidden;
+}
+
+ul li label {
+  display: block;
+  position: relative;
+  font-weight: 300;
+  font-size: 1.35em;
+  padding: 25px 25px 25px 80px;
+  margin: 10px auto;
+  height: 30px;
+  z-index: 9;
+  cursor: pointer;
+  -webkit-transition: all 0.25s linear;
+}
+
+ul li .check {
+  display: block;
+  position: absolute;
+  border: 5px solid rgb(158, 203, 205);
+  border-radius: 100%;
+  height: 25px;
+  width: 25px;
+  top: 30px;
+  left: 20px;
+  z-index: 5;
+  transition: border 0.25s linear;
+  -webkit-transition: border 0.25s linear;
+}
+
+ul li:hover .check {
+  border: 5px solid #f9a266;
+}
+
+ul li .check::before {
+  display: block;
+  position: absolute;
+  content: "";
+  border-radius: 100%;
+  height: 15px;
+  width: 15px;
+  top: 5px;
+  left: 5px;
+  margin: auto;
+  transition: background 0.25s linear;
+  -webkit-transition: background 0.25s linear;
+}
+
+input[type="radio"]:checked ~ .check {
+  border: 5px solid #f56400;
+}
