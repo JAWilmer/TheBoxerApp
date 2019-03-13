@@ -1,6 +1,6 @@
-# Boxer
+# Boxer: Boxing out the competition!
 
-Boxing out the competition! View the [Boxer App](https://ancient-oasis-49225.herokuapp.com/) 
+View the [Boxer App](https://ancient-oasis-49225.herokuapp.com/) 
 
 ## Why Boxer?
 
@@ -25,20 +25,20 @@ Boxer is a pet content aggregator that takes a customer's previous search histor
     * LiveChat provides user assistance if needed
 
 ## Developers:
-    + Julie Wilmer- Team Lead, API, and Front End
-    + Jared Harris- Front End and Design
-    + Bo Rosales- Authentication and Forms
-    + Andrew Robles- Database Schema and Programming 
+    * Julie Wilmer- Team Lead, API, and Front End
+    * Jared Harris- Front End and Design
+    * Bo Rosales- Authentication and Forms
+    * Andrew Robles- Database Schema and Programming 
 
 ## Sneak Peak: 
 
-### Home Page
+#### Home Page
 ![Home Page Screenshot](boxer-splash-page.png)
 
-### Small Custom Box Content Selection Page
+#### Small Custom Box Content Selection Page
 ![Small Box Content Selection Screenshot](small-box-content.png)
 
-### Small Mystery Box Content
+#### Small Mystery Box Content
 ![Mystery Box Content Screenshot](sm-mystery-box-content.png)
 
 
