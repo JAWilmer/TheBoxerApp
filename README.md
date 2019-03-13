@@ -1,15 +1,12 @@
 # Boxer
 
-[Boxing out the competition!](https://ancient-oasis-49225.herokuapp.com/) 
+Boxing out the competition! View the [Boxer App](https://ancient-oasis-49225.herokuapp.com/) 
 
 ## Why Boxer?
 
-Boxer is a pet content aggregator that takes a customer's previous search history on the boxer site as well as details about
-their pet and creates mystery boxes of different values. These boxes will contain 4 unique pet-centric producuts tailored 
-for the customer and their price point. A customer may also choose their own items; however, if the user navigates from the page, it's possible that
-they will not see the product again. 
+Boxer is a pet content aggregator that takes a customer's previous search history on the boxer site as well as details about their pet and creates mystery boxes of different values. These boxes will contain 4 unique pet-centric products tailored to the customer and their price point. A customer may also choose their own items; however, if the user navigates from the page, it's possible that they will not see the product again. 
 
-## Built With
+## Technologies Used:
 
 * [Node](https://nodejs.org/) - Node.js is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser.
 * [MySQL](https://www.mysql.com/) - MySQL is an open source relational database management system. 
@@ -27,14 +24,21 @@ they will not see the product again.
 * [LiveChat](https://www.livechatinc.com/) - Online chat and help desk
     * LiveChat provides user assistance if needed
 
-## Authors
-    * Julie Wilmer- API and Front End
-    * Jared Harris- Front End and Design
-    * Bo Rosales- Authentication and Forms
-    * Andrew Robles- Database Schema and Programming 
+## Developers:
+    + Julie Wilmer- Team Lead, API, and Front End
+    + Jared Harris- Front End and Design
+    + Bo Rosales- Authentication and Forms
+    + Andrew Robles- Database Schema and Programming 
 
+## Sneak Peak: 
 
+### Home Page
+![Home Page Screenshot](boxer-splash-page.png)
 
+### Small Custom Box Content Selection Page
+![Small Box Content Selection Screenshot](small-box-content.png)
 
+### Small Mystery Box Content
+![Mystery Box Content Screenshot](sm-mystery-box-content.png)
 
 
