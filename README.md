@@ -30,7 +30,7 @@ Boxer is a pet content aggregator that takes a customer's previous search histor
     * Bo Rosales- Authentication and Forms
     * Andrew Robles- Database Schema and Programming 
 
-## Sneak Peak: 
+## Sneak Peek: 
 
 #### Home Page
 ![Home Page Screenshot](boxer-splash-page.png)
